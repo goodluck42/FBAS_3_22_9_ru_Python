@@ -48,16 +48,38 @@ a *= 2
 # else:
 #     print("You are not allowed")
 
-age = int(input())
+# age = int(input())
+#
+# if age < 20:
+#     print("You are teenager")
+# elif age >= 20:
+#     print("You are a student")
+# elif age >= 60:
+#     print("You are a retired")
+# else:
+#     print("You are very old person")
+#
+# if age == 42:
+#     print("You are 42 years old")
+#
+#
 
-if age < 20:
-    print("You are teenager")
-elif age >= 20:
-    print("You are a student")
-elif age >= 60:
-    print("You are a retired")
+# number = 42
+#
+# if number % 2:
+#     print("Нечётное")
+# else:
+#     print("Чётное")
+
+
+user_input = input()
+
+if user_input == "start":
+    print("game started")
+    a = 5
+elif user_input == "options":
+    print("game options opened")
+elif user_input == "exit":
+    print("Exiting...")
 else:
-    print("You are very old person")
-
-if age == 42:
-    print("You are 42 years old")
+    print("Incorrect command")
