@@ -50,10 +50,11 @@
 #          0   1   2   3   4
 # numbers = [12, 55, 42, 13, 99]
 
-## FAKE
+# FAKE
 # for i in numbers:
 #     i *= 2
-#     print(i, end=" ")
+#
+# print(numbers)
 
 ## REAL
 
@@ -80,9 +81,10 @@
 
 from random import randint
 
-numbers = []
+numbers = []  # list
 
-x = 13
+x = 13  # int
+
 # y = int(input())
 numbers.append(42)
 # numbers.append(y)
