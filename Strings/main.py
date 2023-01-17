@@ -116,3 +116,8 @@
 # print("Hello\nWorld")
 # print("Hello\\World")
 print("Hello\rWorld")
+
+import string
+
+print(string.digits)
+print(string.punctuation)
