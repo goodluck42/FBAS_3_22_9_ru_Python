@@ -1,7 +1,7 @@
 # bool, str, int, float, list
 
 # Изменяемые (mutable), ReferenceType
-# list
+# list, str (НЕИЗМЕНЯЕМЫЙ)
 
 # Неизменяемые (immutable) ValueType
 # int, float, bool, str, tuple
