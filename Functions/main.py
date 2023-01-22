@@ -7,7 +7,6 @@ def get_negative_numbers(numbers):
     return result
 
 
-
 list1 = [40, -42, -13, 10, 20, -50, 90]
 list2 = [42, 10, 20, -19, -13, 45, -72]
 
