@@ -56,3 +56,14 @@ print(f"values = {list(values)}")
 
 for k, v in student.items():
     print(f"key = {k}\nvalue = {v}")
+
+
+def fn(*args, **kwargs):
+    print(args[0])
+    print(kwargs["key"])
+
+fn(1, 4, 5, 6, 8, 9, key="helloy")
+
+x = filter(lambda v: v > 0, [1, -2, 3, 4, 5, 6])
+
+print(list(x))
