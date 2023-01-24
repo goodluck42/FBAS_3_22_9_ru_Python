@@ -1,25 +1,25 @@
 # name surname age grades
 # dict
-# student = {
-#     "name": "Иосиф",
-#     "surname": "Юсубов",
-#     "age": 17,
-#     "grades": [12, 7, 9, 10]
-# }
-# student2 = {
-#     "name": "Джафар",
-#     "surname": "Джафаров",
-#     "age": 15,
-# }
-#
-# students = []
-#
-# students.append(student)
-# students.append(student2)
-#
-# print(f"all students = {students}")
-#
-# print(students[1]["name"])
+student = {
+    "name": "Иосиф",
+    "surname": "Юсубов",
+    "age": 17,
+    "grades": [12, 7, 9, 10]
+}
+student2 = {
+    "name": "Джафар",
+    "surname": "Джафаров",
+    "age": 15,
+}
+
+students = []
+
+students.append(student)
+students.append(student2)
+
+print(f"all students = {students}")
+
+print(students[1]["name"])
 
 #####################
 
